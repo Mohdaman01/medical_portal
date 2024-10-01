@@ -1,0 +1,6 @@
+
+<%= button_to 'Logout', destroy_user_session_path, method: :delete, class: 'btn btn-danger' %>
+
+<h1>Patients Registered Per Day</h1>
+<%= line_chart @patients_by_day %>
+
